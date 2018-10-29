@@ -8,7 +8,7 @@
     "interact"
   ],
   "scripts": {
-    "go": "git push origin master; npm publish"
+    "start": "git push origin master; npm publish"
   },
   "repository": "levistep32/node-interact",
   "author": "Levi Stepanek <levistep32@gmail.com>",
