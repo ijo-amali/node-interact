@@ -1,16 +1,6 @@
-const { exec, execSync } = require("child_process");
-
-function version() {
-	return execSync("npm --version");
-}
-
-function betterVersion() {
-	exec("npm --version", (err, out, stderr) => {
-		if (err || stderr) throw err
-
-	})
-}
+const npm = require("./npm")
+const node = require("./node")
 
 module.exports = {
-	version, betterVersion
+	npm, node
 }
