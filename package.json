@@ -7,6 +7,7 @@
     "node",
     "interact"
   ],
+  "repository": "levistep32/node-interact",
   "author": "Levi Stepanek <levistep32@gmail.com>",
   "license": "MIT"
 }
