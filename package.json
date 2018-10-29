@@ -1,0 +1,12 @@
+{
+  "name": "node-interact",
+  "version": "0.0.1",
+  "description": "A way to interact with node with js",
+  "main": "main.js",
+  "keywords": [
+    "node",
+    "interact"
+  ],
+  "author": "Levi Stepanek <levistep32@gmail.com>",
+  "license": "MIT"
+}
