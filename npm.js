@@ -1,11 +1,11 @@
 const { exec, execSync } = require("child_process");
 
 function version() {
-	return execSync("npm --version").toString
+	return execSync("npm --version").toString()
 }
 
 function search(arg) {
-	return execSync("npm search " + arg).toString
+	return execSync("npm search " + arg).toString()
 }
 
 function betterVersion() {
