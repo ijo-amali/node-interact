@@ -8,9 +8,13 @@
     "interact"
   ],
   "scripts": {
-    "start": "git push origin master; npm publish"
+    "start": "git push origin master; npm publish",
+    "test": "node test.js"
   },
   "repository": "levistep32/node-interact",
   "author": "Levi Stepanek <levistep32@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "colors": "^1.3.2"
+  }
 }
