@@ -16,5 +16,5 @@ function betterVersion() {
 }
 
 module.exports = {
-	version, betterVersion
+	version, betterVersion, search
 }
